@@ -1,0 +1,51 @@
+[
+  {"rank": 1,
+  "name": "Jones Bar-B-Q",
+  "Season": 3,
+  "episode": 3},
+
+  {"rank": 2,
+  "name": "Hunter to Huntee",
+  "Season": 3,
+  "episode": 1},
+
+  {"rank": 3,
+  "name": "You Can't Fix Ugly",
+  "Season": 1,
+  "episode": 1},
+
+  {"rank": 4,
+  "name": "Saving Sasquatch",
+  "Season": 1,
+  "episode": 2},
+
+  {"rank": 5,
+  "name": "Hose Before Bros",
+  "Season": 1,
+  "episode": 8},
+
+  {"rank": 6,
+  "name": "Camp Rules",
+  "Season": 1,
+  "episode": 5},
+
+  {"rank": 7,
+  "name": "To Gay or Not Too Gay ",
+  "Season": 2,
+  "episode": 2},
+
+  {"rank": 8,
+  "name": "A Decent Proposal",
+  "Season": 2,
+  "episode": 2},
+
+  {"rank": 9,
+  "name": "Dega Don't",
+  "Season": 1,
+  "episode": 3},
+
+  {"rank": 9,
+  "name": "Make Ted Great Again",
+  "Season": 2,
+  "episode": 8},
+]
