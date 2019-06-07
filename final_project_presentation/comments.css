@@ -1,0 +1,142 @@
+.card {
+   display: inline-block;
+   flex-wrap: wrap;
+   /* flex-direction: column; */
+   width: 20vw;
+   margin: 5px;
+   padding-left: 20px;
+   padding-top: 20px;
+   vertical-align: top;
+   background-color: #addde6;
+   height: 100%;
+
+
+}
+
+.cards {
+  margin: 10px;
+  margin-top: 0px;
+  grid-area: c;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: .25fr 1fr;
+  grid-template-areas:
+    "a a"
+    "b c" ;
+  background-color: #ffffe0;
+}
+
+.form {
+  grid-area: b;
+  margin-left: 20px;
+  background-color: #f0efed;
+  height: 100vh;
+
+}
+
+.title {
+  grid-area: a;
+}
+
+ul {
+  padding:0px;
+  margin: 0px;
+}
+
+.name {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.comment {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 2px;
+}
+
+.episode_name {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#episode {
+  margin: 20px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  border: solid 1px #ccc;
+
+  /* float: right; */
+}
+
+#comment {
+  margin: 20px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  border: solid 1px #ccc;
+/* float: right; */
+}
+
+#name {
+  margin: 20px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  border: solid 1px #ccc;
+  /* float: right; */
+}
+
+.form_info {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #3faeec;
+  margin-bottom: 20px;
+  width: 100px;
+  display: inline-block;
+  margin-left: 20px;
+
+}
+
+.form_title {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  color: #ed4e8a;
+  margin-left: 20px;
+
+}
+
+h1{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 100;
+  font-size: 60px;
+  color: #ed4e8a;
+
+}
+
+.button {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #f0efed;
+  margin-left: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  border: solid 1px #ccc;
+  background-color: #ed4e8a;
+}
+
+img {
+  width: 90%;
+  margin-top: 70px;
+  margin-left: 20px;
+}
