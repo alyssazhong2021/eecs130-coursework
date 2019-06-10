@@ -1,0 +1,138 @@
+.card {
+   display: inline-block;
+   flex-wrap: wrap;
+   width: 20vw;
+   margin: 5px;
+   padding-left: 1.5vw;
+   padding-top: 1.5vw;
+   vertical-align: top;
+   background-color: #addde6;
+   height: 100%;
+
+
+}
+
+.cards {
+  margin: 1vw;
+  margin-top: 0px;
+  grid-area: c;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: .25fr 1fr;
+  grid-template-areas:
+    "a a"
+    "b c" ;
+  background-color: #ffffe0;
+}
+
+.form {
+  grid-area: b;
+  margin-left: 1.5vw;
+  background-color: #f0efed;
+  height: 100vh;
+
+}
+
+.title {
+  grid-area: a;
+}
+
+ul {
+  padding:0px;
+  margin: 0px;
+}
+
+.name {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.comment {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 2px;
+}
+
+.episode_name {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#episode {
+  margin: 1.5vw;
+  height: 2vw;
+  border-radius: 5px;
+  border: none;
+  border: solid 1px #ccc;
+
+}
+
+#comment {
+  margin: 1.5vw;
+  height: 2vw;
+  border-radius: 5px;
+  border: none;
+  border: solid 1px #ccc;
+}
+
+#name {
+  margin: 1.5vw;
+  height: 2vw;
+  border-radius: 5px;
+  border: none;
+  border: solid 1px #ccc;
+}
+
+.form_info {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #3faeec;
+  margin-bottom: 1.5vw;
+  width: 6vw;
+  display: inline-block;
+  margin-left: 1.5vw;
+
+}
+
+.form_title {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  color: #ed4e8a;
+  margin-left: 1.5vw;
+
+}
+
+h1{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 100;
+  font-size: 60px;
+  color: #ed4e8a;
+
+}
+
+.button {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #f0efed;
+  margin-left: 8vw;
+  margin-top: 3.5vw;
+  border-radius: 5px;
+  border: none;
+  border: solid 1px #ccc;
+  background-color: #ed4e8a;
+}
+
+img {
+  width: 90%;
+  margin-top: 5vw;
+  margin-left: 1vw;
+}

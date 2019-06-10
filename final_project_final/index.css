@@ -1,0 +1,102 @@
+
+.rank {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+ .cards {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.episode_info {
+  width: 51%;
+  text-align: left;
+  margin-left: 0px;
+  object-position: left;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #3faeec;
+
+}
+
+h1 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 100;
+  font-size: 60px;
+  color: #ed4e8a;
+  padding-left: 1vw;
+  padding-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+body {
+  background-color: #f0efed
+}
+
+.name{
+  width: 50%;
+}
+
+.name:hover{
+  opacity: 0.7;
+}
+.name .name_2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: #3faeec;
+
+}
+
+.cards li {
+    width: 45vw;
+    height: 80%;
+    padding-bottom: 1vw;
+    padding-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:80%;
+    cursor: pointer;
+}
+
+.comment_button {
+  text-align: right;
+  margin: 10px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #f0efed;
+  background-color:#ed4e8a;
+  padding: 10px;
+
+}
+
+.comment_container {
+  text-align: right;
+}
+
+.comment_container:hover {
+  opacity: 0.7;
+}
+
+
+p {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 1vw;
+  margin-bottom: 3vw;
+}
